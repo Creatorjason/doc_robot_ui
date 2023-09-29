@@ -43,7 +43,7 @@ function App() {
   return (
     <div className="App">
        <h1>DOC ROBOT 🤖</h1>
-    <form action="http://127.0.0.1:8000/upload/" method="post" encType="multipart/form-data" id="fileUploadForm">
+    <form action="https://doc-bot-service.onrender.com/upload/" method="post" encType="multipart/form-data" id="fileUploadForm">
         <div>
             <label htmlFor="docxFile">Upload a Doc file(.docx):</label>
             <input type="file" id="docxFile" name="docx_file" accept=".docx" required/>
