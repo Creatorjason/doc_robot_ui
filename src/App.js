@@ -10,7 +10,7 @@ function App() {
     const formData = new FormData(this);
 
                 try {
-                    const response = await fetch("http://127.0.0.1:8000/upload/", {
+                    const response = await fetch("https://doc-bot-service.onrender.com/upload/", {
                         method: "POST",
                         body: formData
                     });
@@ -18,7 +18,7 @@ function App() {
                     if (response.ok || response.status === 200) {
                         // If the upload was successful, display a button for the user to initiate the download
                         console.log(response);
-                        window.location.href = "http://127.0.0.1:8000/download/completed";
+                        window.location.href = "https://doc-bot-service.onrender.com/download/completed";
 
                         // const downloadLinkContainer = document.getElementById("downloadLinkContainer");
                         // downloadLinkContainer.innerHTML = `
