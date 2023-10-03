@@ -14,7 +14,7 @@ const NoAmount = () => {
                         if (response.ok || response.status === 200) {
                             // If the upload was successful, display a button for the user to initiate the download
                             console.log(response);
-                            window.location.href = "https://doc-bot-service.onrender.com/download/completed";
+                            window.location.href = "https://doc-bot-service.onrender.com/download/no_amount_completed";
     
                             // const downloadLinkContainer = document.getElementById("downloadLinkContainer");
                             // downloadLinkContainer.innerHTML = `
