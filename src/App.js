@@ -42,12 +42,17 @@ function App() {
   }
   return (
     <div className="App">
-       <h1>DOC ROBOT 🤖</h1>
-    <form action="https://doc-bot-service.onrender.com/upload/" method="post" encType="multipart/form-data" id="fileUploadForm">
+       <h1>DOC BOT 🤖</h1>
+       <h3>Work for the docs you want amount included in it</h3>
+    <form action="https://doc-amount-server.onrender.com/upload/" method="post" encType="multipart/form-data" id="fileUploadForm">
         <div>
             <label htmlFor="docxFile">Upload a Doc file(.docx):</label>
             <input type="file" id="docxFile" name="docx_file" accept=".docx" required/>
         </div>
+        {/* <div>
+            <label htmlFor="docxFile">Upload a Doc file, this template is for no amount(.docx):</label>
+            <input type="file" id="docxFile" name="docx_file" accept=".docx" required/>
+        </div> */}
         <div>
             <label htmlFor="xlsxFile">Upload an Excel file(.xlsx):</label>
             <input type="file" id="xlsxFile" name="xlsx_file" accept=".xlsx" required/>
