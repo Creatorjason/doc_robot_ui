@@ -44,7 +44,7 @@ const NoAmount = () => {
             <div>
                 <p>The Doc template for no amount</p>
                 <label htmlFor="docxFile">Upload a Doc file(.docx):</label>
-                <input type="file" id="docxFile" name="docx_file" accept=".docx" required/>
+                <input type="file" id="nodocxFile" name="no_docx_file" accept=".docx" required/>
             </div>
             {/* <div>
                 <label htmlFor="docxFile">Upload a Doc file, this template is for no amount(.docx):</label>
