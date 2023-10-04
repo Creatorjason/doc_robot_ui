@@ -58,6 +58,8 @@ const NoAmount = () => {
                 <br/>
                 <input type="submit" value="Upload Files" onClick={uploadAndDownload}/>
             </div>
+        <br/>
+        <a href="/doc_signer" style={{color:"yellow"}}>Click on this link to take you to signature bot</a>
         </form>
         </div>
       );
